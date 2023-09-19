@@ -1,1 +1,161 @@
-<!-- Write your HTML code here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Toothcare</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#doctors">DENTIST</a></li>
+          <li><a href="#services">SERVICES</a></li>
+          <li><a href="#appointment">APPOINTMENT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home">
+      <h1>
+        Dentist Services<br />
+        that You Can Trust
+      </h1>
+      <p>
+        Smile Brighter, Live Better: Your Journey to Dental Wellness Begins Here!
+      </p>
+      <a href="#appointment" class="btn-1">MAKE AN APPOINTMENT</a>
+      <a href="#courses" class="btn-2">VIEW COURSE</a>
+    </section>
+    <section id="services">
+    <h1 class="heading">SERVICES</h1>
+      <h1>Toothcare Services</h1>
+      <div class="service">
+        <img src="images/icon1.png" alt="Service Icon" class="service-img" />
+        <h2>Tooth Protection</h2>
+        <p>
+            Preserving Your Precious Smile is Our Priority. Discover Complete Tooth Protection with Our Advanced Solutions, Ensuring Long-lasting Dental Health and Confidence in Every Bite.
+        </p>
+      </div>
+      <div class="service">
+        <img src="images/icon2.png" alt="Service Icon" class="service-img" />
+        <h2>Dental Implants</h2>
+        <p>
+            Rediscover Your Confident Smile with Lifelike Dental Implants. Our Expertise Ensures Precision and Comfort, Restoring Your Teeth's Functionality and Aesthetic Appeal for a Brighter Tomorrow.
+        </p>
+      </div>
+      <div class="service">
+        <img src="images/icon3.png" alt="Service Icon" class="service-img" />
+        <h2>Dental Care</h2>
+        <p>
+            Nurturing Healthier Smiles Every Day. Our Comprehensive Dental Care Services Promote Lifelong Wellness, Offering Gentle Treatments and Expert Guidance for Optimal Oral Health. Your Smile, Our Priority.
+        </p>
+      </div>
+      <div class="service">
+        <img src="images/icon4.png" alt="Service Icon" class="service-img" />
+        <h2>Teeth Whitening</h2>
+        <p>
+            Elevate Your Smile's Radiance with Professional Teeth Whitening. Experience Safe and Stunning Results as Brighten Your Teeth, Boosting Your Confidence and Unveiling a Dazzling Transformation.
+        </p>
+      </div>
+    </section>
+    <section id="appointment">
+        <h1 class="heading">WE ARE HERE FOR YOU</h1>
+      <h1>Make An Appointment</h1>
+      <form>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+        /><br /><br />
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+        /><br /><br />
+        <input
+          type="number"
+          id="mobile"
+          name="mobile"
+          placeholder="Enter your phone number"
+        /><br /><br />
+        <input
+          type="date"
+          id="date"
+          name="date"
+          placeholder="Enter appointment date"
+        /><br /><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Enter your message"
+        ></textarea
+        ><br /><br />
+        <input
+          type="submit"
+          value="SEND MESSAGE"
+          onclick="validateForm(event)"
+        />
+      </form>
+    </section>
+    <section id="doctors">
+        <h1 class="heading">OUR DOCTORS</h1>
+      <h1>Qualified Dentist</h1>
+      <div class="doctor">
+        <img src="images/doctor1.jpg" alt="doctor-img" class="doctor-img" />
+        <h2>Dr. Loyd Wilson</h2>
+        <h3>HEAD DENTIST</h3>
+        <a href="#" class="social-icon"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+            <a href="#" class="social-icon"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#" class="social-icon"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+            <a href="#" class="social-icon"><img src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+        <p>
+            I am an ambitious workaholic, but apart from that, pretty simple person.
+        </p>
+      </div>
+      <div class="doctor">
+        <img src="images/doctor2.jpg" alt="doctor-img" class="doctor-img" />
+        <h2>Dr. Rachel Parker</h2>
+        <h3>HEAD DENTIST</h3>
+            <a href="#" class="social-icon"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+            <a href="#" class="social-icon"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#" class="social-icon"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+            <a href="#" class="social-icon"><img src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+        <p>
+            I am an ambitious workaholic, but apart from that, pretty simple person.
+        </p>
+        
+      </div>
+      <div class="doctor">
+        <img src="images/doctor3.jpg" alt="doctor-img" class="doctor-img" />
+        <h2>Dr. Ian Smith</h2>
+        <h3>DENTIST</h3>
+        <a href="#" class="social-icon"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+            <a href="#" class="social-icon"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#" class="social-icon"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+            <a href="#" class="social-icon"><img src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+        <p>
+            I am an ambitious workaholic, but apart from that, pretty simple person.
+        </p>
+      </div>
+      <div class="doctor">
+        <img src="images/doctor4.jpg" alt="doctor-img" class="doctor-img" />
+        <h2>Dr. Alicia Henry</h2>
+        <h3>DENTIST</h3>
+        <a href="#" class="social-icon"><img src="images/facebook-icon.png" alt="Facebook" /></a>
+            <a href="#" class="social-icon"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+            <a href="#" class="social-icon"><img src="images/youtube-icon.png" alt="Youtube" /></a>
+            <a href="#" class="social-icon"><img src="images/linkedin-icon.png" alt="LinkedIn" /></a>
+        <p>
+            I am an ambitious workaholic, but apart from that, pretty simple person.
+        </p>
+      </div>
+    </section>
+    <footer>
+        <p>Copyright ©2023 All rights reserved </p>
+      </footer>
+      <script src="script.js" type="text/javascript"></script>
+    </body>
+  </body>
+</html>
